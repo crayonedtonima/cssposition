@@ -1,0 +1,255 @@
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	font-family: sans-serif;
+	font-size: 14px;
+	line-height:1.7em;
+	height: 800px;
+
+}
+h1,h2,h3,h4,h5,h6{
+	font-family: serif;
+
+}
+a{
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:none;
+}
+.green{
+	width:1350px;
+	height: 500px;
+	background: green;
+	position: relative;
+
+}
+.red{
+	width:300px;
+	height: 300px;
+	border-radius: 100%;
+	background: red;
+	position: absolute;
+	top: 18%;
+	left: 40%;
+
+
+}
+.fb{
+	width: 200px;
+	position: fixed;
+	top: 8%;
+	right:-10%;
+	transition: 1s;
+}
+.fb:hover{
+	right: -5px;
+	cursor: pointer;
+
+}
+.pin{
+	width: 200px;
+	position: fixed;
+	top: 20%;
+	right:-10%;
+	transition: 1s;
+}
+.pin:hover{
+	right: -5px;
+	cursor: pointer;
+
+}
+.tw{
+	width: 200px;
+	position: fixed;
+	top: 32%;
+	right:-10%;
+	transition: 1s;
+}
+.tw:hover{
+	right: -5px;
+	cursor: pointer;
+
+}
+.in{
+	width: 200px;
+	position: fixed;
+	top: 45%;
+	right:-10%;
+	transition: 1s;
+}
+.in:hover{
+	right: -5px;
+	cursor: pointer;
+
+}
+.social-icons{
+	width: 100%;
+	padding: 10px 0px;
+	text-align: center;
+	margin: 0px 10 px 0px 15px;
+}
+.social-icons li{
+	list-style: none;
+	display: inline-block;
+
+ }
+ .social-icons li a{
+ 	display: block;
+   	text-align: center;
+
+font-size: 35px;
+transition: 2s;
+margin: 0px 10px;
+
+
+ }
+  .social-icons li a .fa-facebook{
+  	width: 80px;
+ 	height: 80px;
+ 	line-height: 80px;
+ 	
+ 	
+  	border-radius: 100%;
+
+  	background:#385A99 ;
+  	color:white ;
+  	border:1px solid #385A99 ;
+  	transition: 1s;
+
+  }
+  
+ .social-icons li a .fa-twitter{
+ 		width: 80px;
+ 	height: 80px;
+ 	line-height: 80px;
+ 	
+ 	
+  	border-radius: 100%;
+  	background: #5DA9DD;
+  	color:white ;
+  	border:1px solid #5DA9DD  ;
+  	transition: 1s;
+
+  }
+   .social-icons li a .fa-instagram{
+   		width: 80px;
+ 	height: 80px;
+ 	line-height: 80px;
+ 	transition: 1s;
+
+ 	
+ 	
+  	border-radius: 100%;
+  	background:#F24D58 ;
+  	color: white ;
+  	border:1px solid #F24D58;
+  }
+   .social-icons li a .fa-github{
+   		width: 80px;
+ 	height: 80px;
+ 	line-height: 80px;
+ 	
+ 	transition: 1s;
+
+  	border-radius: 100%;
+  	background: #000 ;
+  	color:white  ;
+  	border:1px solid #000 ;
+  }
+   .social-icons li a .fa-snapchat{
+   		width: 80px;
+ 	height: 80px;
+ 	line-height: 80px;
+ 	
+ 	transition: 1s;
+
+  	border-radius: 100%;
+  	background:#E4D600 ;
+  	color:white  ;
+  	border:1px solid #E4D600 ;
+  }
+   .social-icons li a .fa-whatsapp{
+   		width: 80px;
+ 	height: 80px;
+ 	line-height: 80px;
+ 	
+ 	transition: 1s;
+
+  	border-radius: 100%;
+  	background: #1ACC3E;
+  	color:white  ;
+  	border:1px solid #1ACC3E ;
+  }
+   .social-icons li a .fa-pinterest{
+   		width: 80px;
+ 	height: 80px;
+ 	line-height: 80px;
+ 	
+ 	transition: 1s;
+
+  	border-radius: 100%;
+  	background: #B3081B;
+  	color:white  ;
+  	border:1px solid  #B3081B;
+  }
+   .social-icons li a .fa-youtube{
+   		width: 80px;
+ 	height: 80px;
+ 	line-height: 80px;
+ 	
+ 	transition: 1s;
+
+  	border-radius: 100%;
+  	background:#FE0000 ;
+  	color:white  ;
+  	border:1px solid  #FE0000;
+  }
+  
+  .social-icons li a .fa-facebook:hover{
+  	background:white ;
+  	color:#385A99 ;
+  	border:1px solid #385A99 ;
+
+transition: 1s;
+
+  }
+  .social-icons li a .fa-twitter:hover{
+  	background:white ;
+  	color:#5DA9DD ;
+  	border:1px solid #5DA9DD ;  }
+
+  	.social-icons li a .fa-instagram:hover{
+  	background:white ;
+  	color:#F24D58;
+  	border:1px solid #F24D58  }
+  	
+
+  	.social-icons li a .fa-github:hover{
+  	background:white ;
+  	color: #000 ;
+  	border:1px solid  #000 ;  }
+  	
+  	.social-icons li a .fa-snapchat:hover{
+  	background:white ;
+  	color:#E4D600  ;
+  	border:1px solid #E4D600 ;  }
+  	
+  	.social-icons li a .fa-whatsapp:hover{
+  	background:white ;
+  	color:#1ACC3E;
+  	border:1px solid #1ACC3E;  }
+
+  	 .social-icons li a .fa-pinterest:hover{
+  	background:white ;
+  	color:#B3081B ;
+  	border:1px solid #B3081B ;  }
+  	
+  	.social-icons li a .fa-youtube:hover{
+  	background:white ;
+  	color:#FE0000 ;
+  	border:1px solid #FE0000 ;  }
+  	
+  	  	
